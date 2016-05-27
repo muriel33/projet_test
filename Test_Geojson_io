@@ -4,8 +4,14 @@
     {
       "type": "Feature",
       "properties": {
+        "stroke": "#555555",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "fill": "#555555",
+        "fill-opacity": 0.5,
         "id": 1,
-        "nom": "Polygone"
+        "nom": "Polygone",
+        "comment": "commentaire de l'objet"
       },
       "geometry": {
         "type": "Polygon",
@@ -38,8 +44,12 @@
     {
       "type": "Feature",
       "properties": {
+        "stroke": "#555555",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
         "id": 2,
-        "nom": "Ligne"
+        "nom": "Ligne",
+        "comment": "ligne test"
       },
       "geometry": {
         "type": "LineString",
@@ -74,6 +84,9 @@
     {
       "type": "Feature",
       "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
         "id": 3,
         "nom": "P3"
       },
@@ -88,6 +101,9 @@
     {
       "type": "Feature",
       "properties": {
+        "marker-color": "#ff0000",
+        "marker-size": "medium",
+        "marker-symbol": "",
         "id": 4,
         "nom": "P4"
       },
@@ -102,6 +118,9 @@
     {
       "type": "Feature",
       "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
         "id": 5,
         "nom": "P5"
       },
@@ -110,6 +129,41 @@
         "coordinates": [
           -0.5739820003509521,
           44.838936491573506
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": 6,
+        "stroke-width": "Rectangle",
+        "marker-symbol": "com in table"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -0.5746901035308838,
+              44.83944620715274
+            ],
+            [
+              -0.5746901035308838,
+              44.84072428011982
+            ],
+            [
+              -0.5725765228271484,
+              44.84072428011982
+            ],
+            [
+              -0.5725765228271484,
+              44.83944620715274
+            ],
+            [
+              -0.5746901035308838,
+              44.83944620715274
+            ]
+          ]
         ]
       }
     }
